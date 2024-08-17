@@ -13,8 +13,5 @@ authors = ["José Morales <josfemova@gmail.com>"]
 
 [dependencies]
 embedded-io-async = "0.6"
-embassy-time = { version = "0.3", features = [
-    "defmt",
-    "defmt-timestamp-uptime",
-] }
 defmt = "0.3"
+embassy-time = { git = "https://github.com/embassy-rs/embassy", rev = "cd4e199065bef50637d61622318c6dd1b5443f9f"}
